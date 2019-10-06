@@ -1,3 +1,4 @@
+#for creating bitwise calculation with right shift
 def arr(A):
 	xor = 0
 	count=0
@@ -8,6 +9,7 @@ def arr(A):
 			count+=1
 			xor ^= (1<<i)
 	return count
+#count rerturns the number of odd numbered integers
 
 for i in range(int(input())):
 	n,m,q = map(int,input().split())
