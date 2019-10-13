@@ -21,3 +21,6 @@ for i in range(int(input())):
 	count2 = arr(liscol)
 	print (count1*m + count2*n - 2*count1*count2)
 
+def print_execution:
+	print("code execution succesful!)
+      
